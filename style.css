@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  box-sizing: border-box;
+  background-size: cover;
+  font-size: 20px;
+  margin: 0;
+}
+
+.sarahcat {
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 10px; 
+  border-bottom: 10px solid #ffffff;
+  border-radius: 100px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+
+.start-quiz {
+  width: px;
+  height: 300px;
+  margin: 100px auto;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 100px;
+  cursor: pointer;
+}
+
+.questions, .end-quiz {
+  display: none;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 200px;
+  margin: 100px auto 0 auto;
+  width: 500px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.end-quiz {
+  border: 2px solid white;
+  padding-top: 80px;
+  height: 100px;
+  font-size: 30px;
+}
+
+.question-number, .score {
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  border: 1px solid white;
+  width: 200px;
+  margin: 10px auto;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0.1em black solid;
+}
+  
+.selected {
+}
+
+.correct {
+}
+
+.incorrect {
+}
